@@ -13,7 +13,7 @@ body{
     color: white;
     display: flex;
     background-color: #52557e;
-    
+    margin-bottom: 60px;
 }
 .d{
     border-radius: 50%;
@@ -88,33 +88,25 @@ input:focus{
     justify-content: center;
 }
 
-.col1 {
+.col1,.col9 {
    
-    background-color: black;
-    width: 600px;
+    width: 40vw;
     height: 450px;
-    border-color: white;
-    margin: 3px;
-   
-
+    margin: 3.5px;
+    background-color: #5a5f89;
+    min-width: 536px;
 }
 
-.col2 {
+.col2,.col3,.col4,.col5,.col6,.col7 {
     
-    background-color: black;
-
-    width: 305px;
-    margin: 3px;
+    width: 19.8vw;
+    margin: 3.5px;
     height: 450px;
-  
+    background-color: #5a5f89;
+    min-width: 265px;
 }
 
-.col3 {
- 
-    background-color: black;
- 
-    width: 305px;
-    height: 450px;
-    margin: 3px;
-   
+.imag{
+    height: 202px;
+    background-color: #a88cd9;
 }
