@@ -18,7 +18,14 @@ body{
     background-color: #52557e;
     margin-bottom: 60px;
 }
-
+div.span{
+    display: none;
+    text-align: left;
+    font-size: 11.2px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: -2;
+}
 .d{
     border-radius: 50%;
     align-items: center;
@@ -67,6 +74,7 @@ input{
     background-color: #5a5f89;
     border: 2px solid #5a5f89;
     margin-left: auto;
+    color: white
 }
 
 input::placeholder{
@@ -82,6 +90,7 @@ input:focus{
    height: 18px;
    width:  18px;
    margin: 10px 16px;
+   filter: invert(100);
 }
 
 .btn{
@@ -136,6 +145,7 @@ input:focus{
     width: 100%;
 }
 .imag{
+    width: 100%;
     height: 202px;
     background-color: #a88cd9;
 }

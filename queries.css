@@ -1,0 +1,93 @@
+@media screen and (max-width: 710px){
+
+    .d1{
+        width: 15px;
+    }
+    .d2{
+        width: 10px;
+    }
+    .d3{
+        width: 7px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .col1,.col10{
+        min-width: 350px;
+    }
+    .col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9{
+        min-width: 350px;
+    }
+  
+    #pp{
+        display: none;
+    }
+    div.span{
+        display: inline-block;
+    }
+    input{
+        padding-left: 18px;
+    }
+    .d1{
+        display: none;
+    }
+    .d2{
+        margin-left: 5px;
+        width: 12px;
+    }
+    .d3{
+        width: 7px;
+    }
+    br{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .col10,.col1{
+        min-width: 280px;
+    }
+    .col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9{
+        min-width: 265px;
+    }
+    .titlepar{
+        padding: 9px 0px;
+        align-items: center;
+    }
+    .btn{
+        width: 40px;
+    }
+    .d2,.d3{
+        display: none;
+    }
+    .d1{
+        margin-left: 5px;
+        margin-right: 10px;
+        width: 20px;
+    }    
+    input{
+        padding-left: 10px;
+    }
+    .svgtick{
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    
+    .d1{
+    display: none;
+    }
+    .col1,.col10{
+        min-width: 265px;
+    }
+    .titlepar{
+        padding-left: 5px;
+    }
+}
+
+
+

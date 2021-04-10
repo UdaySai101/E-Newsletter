@@ -50,3 +50,7 @@ const radbSelector = document.getElementsByClassName('radiobut');
 for (let i = 0; i < radbSelector.length; i++) {
     radbSelector[i].style.filter = radColors[i];
 }
+
+ const spn = document.getElementsByClassName('span');
+
+spn[0].innerHTML  = spn[1].innerHTML = shortPara;
