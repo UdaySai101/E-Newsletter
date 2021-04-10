@@ -1,6 +1,18 @@
 @media screen and (max-width: 710px){
 
     .d1{
+        width: 12px;
+    }
+    .d2{
+        width: 8px;
+    }
+    .d3{
+        width: 5px;
+    }
+}
+@media screen and (max-width: 620px){
+
+    .d1{
         width: 15px;
     }
     .d2{
@@ -9,8 +21,8 @@
     .d3{
         width: 7px;
     }
-}
 
+}
 @media screen and (max-width: 560px) {
 
     .col1,.col10{
@@ -86,6 +98,10 @@
     }
     .titlepar{
         padding-left: 5px;
+    }
+    input{
+        padding-left: 10px;
+        font-size: 12px;
     }
 }
 

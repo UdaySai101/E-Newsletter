@@ -1,4 +1,4 @@
-'!use strict';
+'use strict';
 
 const pSelector = document.getElementsByTagName('p');
 
@@ -51,6 +51,6 @@ for (let i = 0; i < radbSelector.length; i++) {
     radbSelector[i].style.filter = radColors[i];
 }
 
- const spn = document.getElementsByClassName('span');
+const spn = document.getElementsByClassName('span');
 
-spn[0].innerHTML  = spn[1].innerHTML = shortPara;
+spn[0].innerHTML = spn[1].innerHTML = shortPara;
